@@ -1,9 +1,16 @@
 id: thunderhub
 title: ThunderHub
-version: 0.13.32
+version: 0.14.6
 release-notes: |
-  * Upstream code update
-  * Full list of upstream changes available [here](https://github.com/apotdevin/thunderhub/compare/v0.13.31...v0.13.32)
+  * New sync progress bar shows percentage of node sync
+  * Simple liquidity purchase — manage Lightning channels more easily
+  * Improved Amboss login integration
+  * Default channel limit set to “Max Size” for better channel control
+  * Fixed Boltz swap claiming logic for easier swap operations
+  * Improved channel opening process — fewer errors, better fee handling
+  * Various performance and code optimizations
+  * Updated Ghost address handling
+  * Full list of upstream changes available [here](https://github.com/apotdevin/thunderhub/compare/v0.13.32...v0.14.6)
 license: MIT
 wrapper-repo: https://github.com/Start9Labs/thunderhub-startos
 upstream-repo: https://github.com/apotdevin/thunderhub
